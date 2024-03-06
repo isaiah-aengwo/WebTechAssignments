@@ -1,0 +1,46 @@
+body {
+    background-image: url("myprofile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #3d9fcc;
+    padding: 20px;
+    text-align: center;
+}
+.intro {
+    background-color: #0f745e;
+    padding: 20px;
+    margin: 20px;
+}
+.skills {
+    background-color: #7cbeb0;
+    padding: 20px;
+    margin: 20px;
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    border: 1px solid #b1ebe2e7;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact {
+    background-color: #9daddf;
+    padding: 20px;
+    margin: 20px;
+}
+@media (max-width: 768px) {
+    .intro, .skills, .contact {
+        padding: 10px;
+    }
+    .intro, .skills, .contact {
+        margin: 10px;
+    }
+}
